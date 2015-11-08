@@ -52,6 +52,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.sib16_support=1 \
     persist.radio.multisim.config=dsds
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.data.qmi.adb_logmask=0
+
 # WIFI
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
