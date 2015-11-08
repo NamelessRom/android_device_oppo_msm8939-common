@@ -49,6 +49,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.sib16_support=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.data.qmi.adb_logmask=0
+
 # WIFI
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
