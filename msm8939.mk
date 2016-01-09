@@ -74,6 +74,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.qcom.bt.sh
 
+# Camera
+PRODUCT_PACKAGES += \
+    Snap
+
 # Thermal-engine
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermal-engine.conf:system/etc/thermal-engine.conf
