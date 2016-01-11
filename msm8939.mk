@@ -98,7 +98,6 @@ PRODUCT_PACKAGES += \
     libboringssl-compat \
     libstlport
 
-
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
@@ -165,6 +164,7 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PACKAGES += \
     libcnefeatureconfig \
+    librmnetctl \
     libshim_parcel \
     libxml2
 
