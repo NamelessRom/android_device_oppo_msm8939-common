@@ -25,6 +25,12 @@
   },
   {
     "remote": "github",
+    "repository": "NamelessRom/android_hardware_qcom_audio",
+    "target_path": "hardware/qcom/audio-caf/msm8916",
+    "revision": "n-3.0-caf-8916"
+  },
+  {
+    "remote": "github",
     "repository": "NamelessRom/android_kernel_oppo_msm8939",
     "target_path": "kernel/oppo/msm8939",
     "revision": "n-3.0"
