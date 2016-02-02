@@ -25,6 +25,12 @@
   },
   {
     "remote": "github",
+    "repository": "NamelessRom/android_hardware_sony_timekeep",
+    "target_path": "hardware/sony/timekeep",
+    "revision": "n-3.0"
+  },
+  {
+    "remote": "github",
     "repository": "NamelessRom/android_kernel_oppo_msm8939",
     "target_path": "kernel/oppo/msm8939",
     "revision": "n-3.0"
