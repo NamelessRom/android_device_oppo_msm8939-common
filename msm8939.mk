@@ -170,6 +170,11 @@ PRODUCT_PACKAGES += \
     libshim_parcel \
     libxml2
 
+# Sony timekeep
+PRODUCT_PACKAGES += \
+    TimeKeep \
+    timekeep \
+
 # Wifi
 PRODUCT_PACKAGES += \
     libqsap_sdk \
