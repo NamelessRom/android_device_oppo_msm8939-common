@@ -19,3 +19,6 @@
 
 # Wi-Fi
 /persist/.genmac                                                u:object_r:wifi_data_file:s0
+
+# Timekeep
+/system/bin/timekeep						u:object_r:timekeep_exec:s0

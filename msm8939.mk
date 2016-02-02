@@ -156,6 +156,11 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libxml2
 
+# Sony timekeep
+PRODUCT_PACKAGES += \
+    TimeKeep \
+    timekeep \
+
 # Sensors
 PRODUCT_PACKAGES += \
     calmodule.cfg \
