@@ -19,3 +19,6 @@
 
 /system/bin/sensor_work						u:object_r:sensor_init_exec:s0
 /system/bin/psensord						u:object_r:sensor_init_exec:s0
+
+# Timekeep
+/system/bin/timekeep						u:object_r:timekeep_exec:s0
