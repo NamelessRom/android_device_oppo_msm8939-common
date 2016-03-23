@@ -175,6 +175,14 @@ PRODUCT_PACKAGES += \
     TimeKeep \
     timekeep \
 
+# Sensors
+PRODUCT_PACKAGES += \
+    sensors.msm8916 \
+    libcalmodule_common
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/calmodule.cfg:system/vendor/etc/calmodule.cfg
+
 # Wifi
 PRODUCT_PACKAGES += \
     libqsap_sdk \
@@ -201,10 +209,6 @@ PRODUCT_COPY_FILES += \
 # IRQ balance
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:system/etc/msm_irqbalance.conf
-
-# Sensor calibration configuration
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/calmodule.cfg:system/vendor/etc/calmodule.cfg
 
 # call the proprietary setup
 $(call inherit-product-if-exists, vendor/oppo/msm8939-common/msm8939-common-vendor.mk)
